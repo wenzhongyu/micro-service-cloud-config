@@ -47,7 +47,7 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka7001:7001/eureka/,http://eureka7002:7002/eureka/,http://eureka7003:7003/eureka/
+      defaultZone: http://eureka7001:7001/eureka/
   instance:
     instance-id: provider8001
     prefer-ip-address: true
@@ -105,7 +105,7 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka7001:7001/eureka/,http://eureka7002:7002/eureka/,http://eureka7003:7003/eureka/
+      defaultZone: http://eureka7001:7001/eureka/
   instance:
     instance-id: provider8001
     prefer-ip-address: true
