@@ -11,7 +11,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: micro-service-cloud-provider
+    name: micro-service-cloud-provider-config-dev
   datasource:
     username: root
     password: 547W612Zh2019
@@ -69,7 +69,7 @@ server:
 spring:
   profiles: test
   application:
-    name: micro-service-cloud-provider
+    name: micro-service-cloud-provider-config-test
   datasource:
     username: root
     password: 547W612Zh2019
